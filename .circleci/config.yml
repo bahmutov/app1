@@ -7,3 +7,4 @@ workflows:
       - cypress/run:
           start: npm start
           store_artifacts: true
+          no-workspace: true
